@@ -1,0 +1,102 @@
+body {
+	box-sizing: border-box;
+	color: black;
+}
+/* Header Section */
+.navbar {
+	background-color: gray;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-header .navbar-toggle, .navbar-header .navbar-toggle .icon-bar {
+	border: 2px solid black;
+}
+
+.navbar-header .navbar-toggle:hover , .navbar-header .navbar-toggle:focus, .navbar-header .navbar-toggle:focus .icon-bar, .navbar-header .navbar-toggle:hover .icon-bar  {
+	border: 2px solid white;
+	background: transparent;
+}
+
+
+#nav-list {
+	padding-top: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: 500;
+	color: black;
+}
+
+#nav-list li:nth-child(1), #nav-list li:nth-child(2)  {
+	border-bottom: 2px solid black;
+}
+
+#nav-list li {
+	padding: 5px;
+}
+
+/* Body Section */
+
+#main-content h1 {
+	font-weight: bold;
+	margin-bottom: 30px
+}
+
+#main-content #menu-item-1, #main-content #menu-item-2, #main-content #menu-item-3{
+	text-align: center;
+	font-size: 1.6em;
+	background-color: gray;
+	border: 1px solid black;
+}
+#menu-item-1, #menu-item-2, #menu-item-3 {
+	margin-bottom: 25px
+}
+
+#main-content h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#main-content a {
+	color: blue;
+}
+
+/* Medium Devices */
+@media (min-width: 992px) {
+	.navbar {
+		height: 80px;
+	}
+
+}
+
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar {
+		height: 80px;
+	}
+}
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 15px;
+	}
+
+	#dropdown {
+		border: 3px solid black;
+		background-color: white;
+	}
+}
